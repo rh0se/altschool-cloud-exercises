@@ -4,13 +4,19 @@ This document contains 10 useful Linux commands that were not mentioned in the m
 
 ## **Table of Contents**
 
-1. [htop - Interactive Process Manager](#1-htop---interactive-process-manager)
-2. [tac Command - Reverse File Content](#2-tac-command---reverse-file-content)
+1. [`htop` - Interactive Process Manager](#1-htop---interactive-process-manager)
+2. [`tac` Command - Reverse File Content](#2-tac-command---reverse-file-content)
 3. [ `tldr` - Simplified Man Pages](#3-tldr---simplified-man-pages)
 4. [`alias` - Create Shortcuts for Commands](#4-alias---create-shortcuts-for-commands)
 5. [`grep` - Search for Patterns in Files](#5-grep---search-for-patterns-in-files)
 6. [`time` - Measure Command Execution Time](#6-time---measure-command-execution-time)
 7. [`lsof` - List Open Files](#7-lsof---list-open-files)
+8. [`zip` - Compresses Files into a ZIP Archive](#8-zip---compresses-files-into-a-zip-archive)
+9. [`shuf` - Shuffle Lines of a File or Input](#9-shuf--shuffle-lines-of-a-file-or-input)
+10. [`ip` – Show/Manipulate Network Interfaces](#10-ip--showmanipulate-network-interfaces)
+
+
+
 
 ## 1. `htop` - Interactive Process Manager
 
@@ -123,3 +129,27 @@ zip [options] archive_name.zip file1 file2 ...
 
 **Screenshot:**
 ![zip command output](images/zipCommand.png)
+
+### 9. `shuf` – Shuffle Lines of a File or Input
+
+The `shuf` command randomly shuffles lines from a file or input. Great for creating randomized datasets or testing.
+
+#### Syntax:
+
+```bash
+shuf [file]
+```
+
+**Screenshot:**
+![shuf command output](images/shufCommand.png)
+
+### 10. `ip` – Show/Manipulate Network Interfaces
+
+The `ip` command is used to display and configure network interfaces, IP addresses, and routing. It's the modern replacement for the older `ifconfig` command.
+
+### Syntax
+```bash
+ip [options] [object] [command]
+```
+**Screenshot:**
+![ip -V command output](images/ipCommand.png)
